@@ -48,7 +48,7 @@ public class NewsDAOImplTest {
 	    List<News> newsList = sesionDAO.findNews();
 	    for (News news2 : newsList) {
 	    	News news = news2;
-	    	System.out.println(news.getId() + " " + news.getTitle() + " " + news.getImage());
+	    	System.out.println(news.getId() + " " + news.getTitle() + " " + news.getDescription() + " " + news.getNewsurl() + " " + news.getImage());
 			
 		}
 	}
